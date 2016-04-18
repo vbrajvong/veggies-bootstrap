@@ -1,0 +1,50 @@
+html {
+   /* Needed to fix footer at bottom of browser */
+   position: relative;
+   min-height: 100%;
+}
+
+body {
+   /* Move down content because of fixed navbar at top */
+   padding-top: 50px;
+   /* Set margin bottom allow for footer height */
+   margin-bottom: 50px;
+    background-image: url("images/tartan.png");
+    background-color: #A2C0A7;
+}
+
+footer {
+   position: fixed;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   background-color: #222222;
+   color: #9d9d9d;
+   text-align: center;
+   padding: 15px;
+}
+
+main div {background-color: #FBE7D4;
+margin-bottom: 15px;}
+
+footer {color: #CEAEBF;
+background-color: #5E2241}
+
+.navbar-inverse {background-color: #5E2241;
+border-color: #5E2241;}
+
+.navbar-inverse .navbar-brand {color: #CEAEBF;}
+.navbar-inverse .btn {background-color:#CEAEBF;
+color: #5E2241;}
+
+.jumbotron {margin-top: 15px;
+    padding-bottom: 25px;
+    color: black;
+    text-align: center;
+    text-shadow: #FBE7D4 3px 3px 4px;
+    background-image: url("images/veggies-background.jpg");
+    background-size: cover;
+}
+
+.jumbotron small {color: #1F5829;
+font-weight: bold;}
